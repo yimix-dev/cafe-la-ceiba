@@ -52,9 +52,7 @@
         <nav aria-label="Navegación principal">
           <ul>
             <li>
-              <a href="#experiencia-cafe-ceiba"
-                >La experiencia en Café La Ceiba</a
-              >
+              <a href="#experiencia-del-lugar">La experiencia del lugar</a>
             </li>
             <li>
               <a href="#lugar-y-cafe">Lugar y café</a>
@@ -65,45 +63,51 @@
             <li>
               <a href="#ubicacion-horarios">Ubicación y horarios</a>
             </li>
+            <li><a href="#contactanos">contactanos</a></li>
           </ul>
         </nav>
       </div>
     </header>
-
     <main>
-      <section id="experiencia-cafe-ceiba">
+      <section id="experiencia-del-lugar">
         <header>
-          <h2>La experiencia en Café La Ceiba</h2>
+          <h2>La experiencia del lugar</h2>
           <p>
             Si estás buscando un lugar para tomar café con calma, Café La Ceiba
             es eso. Una cafetería artesanal que trabaja con café 100 %
             guatemalteco y cuida cada parte del proceso, desde el grano hasta la
-            taza. No somos una cafetería rápida ni un espacio comercial
-            acelerado. Nuestro enfoque es simple: buen café, un ambiente
-            tranquilo y tiempo para disfrutarlo. Cada detalle del lugar está
-            pensado para que el visitante se sienta cómodo y sin prisa. Creemos
-            en la tradición, en hacer las cosas bien y en respetar el origen del
-            café que servimos. Por eso Café La Ceiba es un espacio para
-            sentarse, conversar o hacer una pausa, no solo para pasar. Café La
-            Ceiba es café guatemalteco, calma y una experiencia honesta.
+            taza.
           </p>
         </header>
-
-        <img
-          id="imagen-meseros"
-          src="imagenes/meseros-sobre-nosotros.jpg"
-          alt="meseros del cafe la ceiba"
-        />
+        <p>
+          No somos una cafetería rápida ni un espacio comercial acelerado.
+          Nuestro enfoque es simple: buen café, un ambiente tranquilo y tiempo
+          para disfrutarlo. Cada detalle del lugar está pensado para que el
+          visitante se sienta cómodo y sin prisa.
+        </p>
+        <p>
+          Creemos en la tradición, en hacer las cosas bien y en respetar el
+          origen del café que servimos. Por eso Café La Ceiba es un espacio para
+          sentarse, conversar o hacer una pausa, no solo para pasar.
+        </p>
+        <img src="imagenes/meseros-sobre-nosotros.jpg" alt="" />
+        <!-- Alt vacio porque la imagen es solamente apoyo visual -->
       </section>
 
       <section id="lugar-y-cafe">
-        <h2>El lugar y el café</h2>
-        <div id="figure-imagenes-seccion">
+        <header>
+          <h2>El lugar y el café</h2>
+          <p>
+            Una mirada al espacio, al café y a la experiencia que se vive en
+            Café La Ceiba.
+          </p>
+        </header>
+        <div class="galeria-lugar-cafe">
           <figure>
             <img
               class="imagen-seccion"
               src="imagenes/local-afuera-imagenes-seccion.jpg"
-              alt="local vista externa de cafe la ceiba"
+              alt="Vista exterior del local de café la ceiba"
             />
             <figcaption>
               El local de Café La Ceiba está pensado para invitar a entrar sin
@@ -116,7 +120,7 @@
             <img
               class="imagen-seccion"
               src="imagenes/cafe-imagenes-seccion.png"
-              alt="cafe en una mesa dentro de el local de cafe la ceiba"
+              alt="Taza de cafe servida en el interior del café"
             />
             <figcaption>
               Una pausa que se disfruta sin prisa. El café acompaña el tiempo,
@@ -127,7 +131,7 @@
             <img
               class="imagen-seccion"
               src="imagenes/clientes-saliendo-imagenes-seccion.png"
-              alt="clientes saliendo de cafe la ceiba felices"
+              alt="clientes saliendo de cafe la ceiba felices y satisfechos"
             />
             <figcaption>
               Las personas no solo vienen por el café. Se van con una sensación
@@ -141,110 +145,83 @@
       <section id="menu">
         <h2>Menú</h2>
         <article>
+          <h3>café americano</h3>
           <figure>
             <img
               class="imagen-producto"
               src="imagenes/cafe-americano-menu.jpg"
               alt="cafe americano en taza blanca fondo blanco"
             />
-            <figcaption>Café Americano</figcaption>
           </figure>
-          <h3>café americano</h3>
-          <p>
-            Café americano preparado con café 100 % guatemalteco, de sabor
-            equilibrado y aroma intenso. Una opción sencilla y limpia, ideal
-            para apreciar el carácter del café y disfrutarlo sin añadidos,
-            respetando su perfil natural.
-          </p>
+          <p>Espresso diluido en agua caliente. Ligero y directo.</p>
           <span class="precio"> Q15.00</span>
         </article>
         <article>
+          <h3>Cappuccino</h3>
           <figure>
             <img
               class="imagen-producto"
               src="imagenes/cappuccino-menu.jpg"
               alt="cappuccino en taza blanca con un fondo blanco"
             />
-            <figcaption>Cappucino</figcaption>
           </figure>
-          <h3>Cappuccino</h3>
           <p>
-            Capuccino elaborado con café 100 % guatemalteco y leche vaporizada,
-            que logra una textura suave y un sabor equilibrado. Una combinación
-            armoniosa que resalta el carácter del café, ideal para disfrutar una
-            experiencia cremosa y reconfortante sin perder la esencia artesanal.
+            Espresso con leche vaporizada y espuma densa. Más cuerpo y carácter.
           </p>
           <span class="precio">Q20.00</span>
         </article>
         <article>
+          <h3>Latte</h3>
           <figure>
             <img
               class="imagen-producto"
               src="imagenes/latte-menu.jpg"
               alt="café Latte en un vaso con fondo blanco"
             />
-            <figcaption>Latte</figcaption>
           </figure>
-          <h3>Latte</h3>
           <p>
-            Latte preparado con café 100 % guatemalteco y leche vaporizada, de
-            sabor suave y balanceado. Una bebida cremosa y agradable, ideal para
-            disfrutar el café de manera ligera, manteniendo el carácter y la
-            calidad que nos distinguen.
+            Espresso con leche vaporizada. Suave, cremoso y fácil de disfrutar.
           </p>
           <span class="precio">Q22.00</span>
         </article>
         <article>
+          <h3>Mocaccino</h3>
           <figure>
             <img
               class="imagen-producto"
               src="imagenes/mocaccino-menu.jpg"
               alt="cafe Mocaccino"
             />
-            <figcaption>Mocaccino</figcaption>
           </figure>
-          <h3>Mocaccino</h3>
-          <p>
-            Mocaccino elaborado con café 100 % guatemalteco, leche vaporizada y
-            un toque de chocolate. Una combinación deliciosa y equilibrada que
-            ofrece una experiencia cremosa y dulce, resaltando el sabor
-            auténtico del café artesanal.
-          </p>
+          <p>Espresso con chocolate y leche. Dulce y reconfortante.</p>
           <span class="precio">Q25.00</span>
         </article>
         <article>
+          <h3>Pan guatemalteco</h3>
           <figure>
             <img
               class="imagen-producto"
               src="imagenes/pan-menu.jpg"
               alt="pan artesanal guatemalteco fondo blanco"
             />
-            <figcaption>Pan artesanal 100% Guatemalteco</figcaption>
           </figure>
-          <h3>Pan guatemalteco</h3>
           <p>
-            Pan artesanal guatemalteco, elaborado con ingredientes frescos y
-            tradicionales, que combina textura suave y sabor auténtico. Perfecto
-            para acompañar tu café y disfrutar de un bocado que refleja la
-            riqueza de nuestra tradición culinaria.
+            Pan tradicional guatemalteco, recién horneado. Ideal para acompañar
+            el café.
           </p>
           <span class="precio">Q10.00</span>
         </article>
         <article>
+          <h3>Postres variados</h3>
           <figure>
             <img
               class="imagen-producto"
               src="imagenes/postres-caseros.jpg"
               alt="Brownies,Pastel de chocolate,Pie de limón en platos blancos"
             />
-            <figcaption>Postres caseros</figcaption>
           </figure>
-          <h3>Postres variados</h3>
           <p>
-            Postres caseros variados, preparados de forma artesanal con
-            ingredientes frescos. Cada opción ofrece un sabor auténtico y
-            sencillo, ideales para acompañar el café y disfrutar un toque dulce
-            hecho en casa.
+            Selección diaria de postres caseros. Dulces para acompañar tu café.
           </p>
           <span class="precio">Precio variable: Q12 - Q18</span>
         </article>
@@ -258,31 +235,105 @@
             la cafetería.
           </p>
         </header>
-        <figure>
-          <img
-            class="imagen-ubicacion"
-            src="imagenes/local-ubicacion.png"
-            alt="fachada de cafe la ceiba"
-          />
-          <figcaption>fachada de cafe la ceiba</figcaption>
-        </figure>
-        <address>
-          <p>
-            <strong>Dirección exacta:</strong> manzana g, zona 1, local 22,
-            ciudad de guatemala
-          </p>
-          <p>Exactamente a una cuadra de el parque central</p>
-          <p>
+        <section class="contenido-ubicacion">
+          <h3>Ubicación</h3>
+          <div class="datos-ubicacion">
+            <address>
+              <p>
+                <strong>Dirección exacta:</strong> manzana g, zona 1, local 22,
+                ciudad de guatemala
+              </p>
+            </address>
+            <p>Exactamente a una cuadra de el parque central</p>
+          </div>
+          <figure class="imagen-local-ubicacion">
+            <img
+              class="imagen-ubicacion"
+              src="imagenes/local-ubicacion.png"
+              alt="fachada de cafe la ceiba"
+            />
+          </figure>
+          <div class="enlace-mapa">
             <a
               href="https://maps.google.com/"
               target="_blank"
               rel="noopener noreferrer"
               >Abrir en Google Maps
             </a>
+          </div>
+        </section>
+
+        <section class="contenido-horarios">
+          <header>
+            <h3>Horarios</h3>
+            <p>
+              Consulta aquí nuestros horarios habituales y la información
+              necesaria para planificar tu visita.
+            </p>
+          </header>
+          <div class="horarios-regulares">
+            <h4>horario de atención</h4>
+            <p>Abierto de Lunes a domingo; de 8:00 AM a 10:00 PM</p>
+          </div>
+          <div class="excepciones-horario">
+            <h4>Excepciones</h4>
+            <p>Cerrado durante Feriados nacionales</p>
+          </div>
+          <div class="cambios-horario">
+            <h4>Posibles cambios en el horario</h4>
+            <p>
+              El horario de atención puede estar sujeto a cambios. Para
+              información actualizada, consulta nuestras redes sociales.
+            </p>
+          </div>
+        </section>
+      </section>
+      <section id="contactanos">
+        <header>
+          <h2>contactanos</h2>
+          <p>
+            Aquí puedes escribirnos para dudas, pedidos especiales o información
+            puntual. Te respondemos lo antes posible.
+          </p>
+        </header>
+        <address>
+          <p>
+            <strong>Contacto:</strong>
+            <a href="tel:+50211111111">+502 1111-1111</a>
+            Llamadas y WhatsApp
+          </p>
+          <p>
+            <strong>correo electronico:</strong>
+            <a href="mailto:cafelaceibaoficial@gmail.com"
+              >cafelaceibaoficial@gmail.com</a
+            >
+          </p>
+          <p>
+            <strong>Redes sociales</strong>
+            <a
+              href="https://www.instagram.com/CafelaCeiba_oficial"
+              rel="noreferrer noopener"
+              target="_blank"
+              >Instagram</a
+            >
+            <a
+              href="https://www.facebook.com/CafélaCeibaoficial"
+              rel="noreferrer noopener"
+              target="_blank"
+              >Facebook</a
+            >
+            <a
+              href="https://www.tiktok.com/en/@cafe-la-ceiba"
+              rel="noreferrer noopener"
+              target="_blank"
+              >TikTok</a
+            >
           </p>
         </address>
-        <p>Horario: 8:00 a 7:00</p>
       </section>
+      <h2 class="cta-texto">
+        Tu próxima taza de café inolvidable está esperandote aquí. Ven.
+      </h2>
     </main>
   </body>
 </html>
