@@ -48,6 +48,13 @@ The design is clean and minimalist, focused on providing easy navigation and a p
 
 ---
 
+## ✅ Project Status
+
+This project is **completed**.  
+No further features are planned. Future changes, if any, will be limited to minor fixes or improvements.
+
+---
+
 ## ⚡ Author
 
 **Yimix** – [GitHub Profile](https://github.com/yimix-dev)
